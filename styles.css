@@ -12,13 +12,13 @@ body{
 }
 .menu{
     width: 100%;
-    /* max-width: 100%; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    position: sticky;
+    position: fixed;
     background-color: rgb(4, 60, 112);
+    z-index: 1;
 }
 .logo {
     display: flex;
@@ -42,20 +42,14 @@ body{
     margin-top: .5rem;
   }
   
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-  }
-  
   .menu ul {
     display: flex;
     list-style: none;
+    margin-left: 20px;
   }
   
   .menu ul li {
-    margin-left: 20px;
+    margin-left: 5px;
   }
   
   .menu ul li a {
@@ -66,7 +60,6 @@ body{
   }
   
   .menu ul li a:hover {
-    /* color: #b23434; */
     background-color:white;
     color: rgb(4, 60, 112);
     text-decoration:wavy;
@@ -89,7 +82,7 @@ body{
     background-color:rgb(4, 60, 112);
     width: fit-content;
     height: fit-content;
-    margin-top: 2rem;
+    margin-top: 4rem;
     margin-left: 8rem;
     margin-right: 2rem;
     border-radius: 15px;
@@ -163,7 +156,6 @@ body{
     border-radius: 25px;
     letter-spacing: 1px;
     font-weight: bold;
-    /* display: inline-block; */
     cursor: pointer;
     position: relative;
     transition: 0.5s;
@@ -356,3 +348,23 @@ button:hover:after {
         margin-left: 2rem;
     }
   }
+  @media (max-width: 600px) {
+    p {
+        font-size: 14px;
+    }
+    h2 {
+      font-size: 1.5rem;
+    }
+}
+#myVideo {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+#myVideo {
+  max-width: 100%;
+  height: auto;
+}
