@@ -10,67 +10,113 @@
     <script src="https://kit.fontawesome.com/c0a7a61bc0.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+        section {
+      padding: 3rem 0;
+    }
       </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
 
 </head>
 <body>
     <header>
+        <!-- navbar code -->
         <nav class="menu">
             <div class="logo">
                 <img src="./images/logo.jpg" alt="logo">
                 <p>JR MEDICARE</p>
             </div>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About</a></li>
+                <li><a href="#section3">Products</a></li>
             </ul>
-        </nav>
-          
+        </nav>     
     </header>
-    <main>
-        <div class="content"> 
-            <div class="leftdiv">
-                <video autoplay muted loop id="myVideo">
-                    <source src="./images/entryvideo.mp4" type="video/mp4">
-                  </video>
-            </div>
-            <div class="rightdiv">
-                <div class="rtop">
-                    <img src="./images/front.JPG" alt="frontphoto">
-                    <figcaption style="position:relative; top:20px; color: white;">
-                        House of Medical Disposables</figcaption>
+    <!-- home page code -->
+    <section id="section1">
+        <main>
+            <div class="content"> 
+                <div class="leftdiv">
+                    <video autoplay muted loop id="myVideo">
+                        <source src="./images/entryvideo.mp4" type="video/mp4">
+                    </video>
                 </div>
-                <hr style="align-self: center; width:25rem;border-bottom:2px solid white; margin-top: 2rem; border-radius: 30px;">
-                <div class="rbottom">
-                    <div class="rbottomtop">
-                        <div class="cleft">
-                            <p><i class="fa-sharp fa-solid fa-location-dot fa-beat" style="color: #b23434;"></i>Address:</p>
-                            <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Phone:</p>
-                            <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>Email:</p>
-                        </div>
-                        <div class="cright">
-                            <p><a href="https://goo.gl/maps/CgeZkM3eFwij8rEE8?coh=178573&entry=tt"> Manthadam, Changaramkulam, Kerala 679585</a></p>
-                            <p> +91-9446635624</p>
-                            <p><a href="mailto:jrmedicare@gmail.com" >jrmedicare@gmail.com</a> </p>
-                        </div>
+                <div class="rightdiv">
+                    <div class="rtop">
+                        <img src="./images/front.JPG" alt="frontphoto">
+                        <figcaption style="position:relative; top:20px; color: white;">
+                            House of Medical Disposables</figcaption>
                     </div>
-                    <div class="rbottomdown">
-                        <a href="https://goo.gl/maps/CgeZkM3eFwij8rEE8?coh=178573&entry=tt" target="_blank"><button>Locate Us</button></a>
-                    </div>    
-                </div> 
+                    <hr style="align-self: center; width:25rem;border-bottom:2px solid white; margin-top: 2rem; border-radius: 30px;">
+                    <div class="rbottom">
+                        <div class="rbottomtop">
+                            <div class="cleft">
+                                <p><i class="fa-sharp fa-solid fa-location-dot fa-beat" style="color: #b23434;"></i>Address:</p>
+                                <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>Phone:</p>
+                                <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i>Email:</p>
+                            </div>
+                            <div class="cright">
+                                <p><a href="https://goo.gl/maps/CgeZkM3eFwij8rEE8?coh=178573&entry=tt"> Manthadam, Changaramkulam, Kerala 679585</a></p>
+                                <p> +91-9446635624</p>
+                                <p><a href="mailto:jrmedicare@gmail.com" >jrmedicare@gmail.com</a> </p>
+                            </div>
+                        </div>
+                        <div class="rbottomdown">
+                            <a href="https://goo.gl/maps/CgeZkM3eFwij8rEE8?coh=178573&entry=tt" target="_blank"><button>Locate Us</button></a>
+                        </div>    
+                    </div> 
+                </div>
+            </div>
+       
+        </main>
+    </section>
+    <!-- about page code -->
+    <section id="section2">
+        <h2 style="font-size: 2rem; padding: 2rem; color: rgb(4, 60, 112);">About Us</h2>
+        <div class="aboutmain">
+            <div class="ableft">
+                <img src="./images/owner.jpg" alt="owner">
+            </div>
+            <div class="abright">
+                <p>"As the proud owner of JR Medicare, I am thrilled to lead a company that has been at the forefront of the medical supply industry since its establishment in 2006. Our mission is to provide healthcare professionals with the highest quality products to support accurate and reliable medical diagnostics.
+                    Our commitment to excellence is evident in every aspect of our business, from sourcing the finest materials to maintaining stringent quality control measures. We work closely with leading manufacturers to ensure that our customers receive products that meet the highest industry standards.
+                </p><br>
+                <p>At JR Medicare, we are committed to making a positive impact on healthcare by providing top-notch products that contribute to accurate diagnostics and improved patient care."</p><br>
+                <p style="margin-top: 1rem;">KM Haridasan</p>
             </div>
         </div>
-       
-    </main>
+    </section>
+    <!-- product page code -->
+    <section id="section3" style="background-color:  rgb(4, 60, 112);">
+        <div class="promain">
+            <div class="items">
+                <h2 style=" font-size:x-large;color: white; padding: 1.5rem;">We Deal with:</h2>
+                <ul>
+                    <li>Single Channel</li>
+                    <li>Multi Channel</li>
+                    <li> Computerised ECG Recording Papers</li>
+                    <li>T.M.T Sound Stress Papers</li>
+                    <li>Ultra Sound "SONY" B&W </li>
+                    <li>Colour Printer Papers</li>
+                    <li>All types of both thermal and non-thermal papers</li>
+                </ul>
+            </div>
+            <div class="rightimages">
+                <img src="./images/flex1.jpg" alt="flex1" >
+                <img src="./images/flex2.jpg" alt="flex2">
+                <img src="./images/flex4.jpg" alt="flex4" >
+                <img src="./images/flex3.jpg" alt="flex3">
+                <img src="./images/store.jpg" alt="store">
+                <img src="./images/officeinside.JPG" alt="officeinside">
+            </div>
+        </div>
+    </section>
+    <!-- footer code -->
     <footer>
         <div class="footer">
-            <p>&copy;JR MEDICARE </p>
+            <p>&copy; 2023 JR MEDICARE. All rights reserved.</p>
             <a href="disclaimer.html" style="text-decoration: none; color: white; "><p style="font-size:.5em;">disclaimer</p></a>
         </div>
-    </footer>
-    
+    </footer>   
 </body>
 </html>
