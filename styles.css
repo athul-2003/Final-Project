@@ -357,16 +357,6 @@ button:hover:after {
       font-size: 1.5rem;
     }
 }
-   /* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .content {
-      padding: 0 0.5rem;
-  }
-
-  .rtop img {
-      width: 150px;
-  }
-}
 
 /* iPhone XR specific styles- since this is the phone that i use. */
 @media screen and (max-width: 375px) {
